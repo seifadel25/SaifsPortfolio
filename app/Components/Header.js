@@ -4,14 +4,12 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsFillTerminalFill } from "react-icons/bs";
 import { FaUserGraduate } from "react-icons/fa";
 
-
-
 import data from "../../data/Header";
 import HeaderInfo from "./HeaderInfo";
 const Header = () => {
   const { image, name, jobTitle, address, experience, education } = data;
   return (
-    <div className="flex flex-wrap flex-col md:flex-row items-center gap-x-8 gap-y-8">
+    <header className="pb-8 text-center flex flex-wrap flex-col md:flex-row items-center gap-x-8 gap-y-8">
       <div className="md:w-[240px] md:h-[280px] w-[200px] h-[200px] relative rounded-full overflow-hidden">
         <Image
           src={image}
@@ -32,16 +30,9 @@ const Header = () => {
           <HeaderInfo Icon={FaMapMarkerAlt} title={address} />
           <HeaderInfo Icon={BsFillTerminalFill} title={experience} />
           <HeaderInfo Icon={FaUserGraduate} title={education} />
-
         </div>
-        
       </div>
-
-      {/* <h2 className="text-lg font-semibold mt-2">{data.jobTitle}</h2>
-      <p className="text-gray-500 mt-2">{data.address}</p>
-      <p className="text-gray-500 mt-2">{data.experience}</p>
-      <p className="text-gray-500 mt-2">{data.education}</p> */}
-    </div>
+    </header>
   );
 };
 export default Header;

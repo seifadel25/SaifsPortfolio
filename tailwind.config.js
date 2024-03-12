@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      Nunito: ["Nunito", "sans-serif"],
+      sans:["Lora", "serif"],
     },
     extend: {
       backgroundImage: {
