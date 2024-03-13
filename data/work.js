@@ -1,0 +1,60 @@
+const data = [
+  {
+    id: 1,
+    image: "/images/work/Google.jpg",
+    company: "Google",
+
+    role: "UX Design Professional Certificate",
+    type: "remote",
+    date: "09/2023 - present",
+    skills: [
+      { id: 1, name: "node JS", image: "/images/skills/node-js.png" },
+      { id: 3, name: "express JS", image: "/images/skills/express.png" },
+      { id: 4, name: "react JS", image: "/images/skills/react.png" },
+      { id: 7, name: "tailwind CSS", image: "/images/skills/tailwind.png" },
+      { id: 7, name: "figma", image: "/images/skills/figma.png" },
+      { id: 8, name: "github", image: "/images/skills/git.png" },
+    ],
+  },
+  {
+    id: 2,
+    image: "/images/work/udemy.png",
+    company: "Udemy",
+
+    role: "Complete React JS & Next JS by Academind",
+    type: "remote",
+    date: "01/2023 - 09/2023",
+    skills: [
+      { id: 1, name: "html", image: "/images/skills/html-5.png" },
+      { id: 2, name: "css", image: "/images/skills/css3.png" },
+      { id: 3, name: "javascript", image: "/images/skills/js.png" },
+      { id: 4, name: "typescipt", image: "/images/skills/typescript.png" },
+      { id: 5, name: "node JS", image: "/images/skills/node-js.png" },
+      { id: 3, name: "express JS", image: "/images/skills/express.png" },
+      { id: 6, name: "react JS", image: "/images/skills/react.png" },
+      { id: 7, name: "redux", image: "/images/skills/redux.png" },
+      { id: 8, name: "next", image: "/images/skills/next-js.png" },
+      { id: 9, name: "tailwind CSS", image: "/images/skills/tailwind.png" },
+      { id: 10, name: "github", image: "/images/skills/git.png" },
+    ],
+  },
+  {
+    id: 3,
+    image: "/images/work/ITI.png",
+    role: "Frontend developer intern",
+    company: "ITI",
+    type: "remote",
+    date: "08/2022 - 10/2022",
+    skills: [
+      { id: 1, name: "html", image: "/images/skills/html-5.png" },
+      { id: 2, name: "css", image: "/images/skills/css3.png" },
+      { id: 2, name: "javascript", image: "/images/skills/js.png" },
+      { id: 2, name: "typescipt", image: "/images/skills/typescript.png" },
+      { id: 2, name: "node JS", image: "/images/skills/node-js.png" },
+      { id: 2, name: "angular", image: "/images/skills/angularjs.png" },
+      { id: 2, name: "react JS", image: "/images/skills/react.png" },
+      { id: 4, name: "github", image: "/images/skills/git.png" },
+    ],
+  },
+];
+export default data;

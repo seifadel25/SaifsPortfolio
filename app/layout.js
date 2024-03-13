@@ -1,6 +1,7 @@
 import "./globals.css";
 import Theme from "./Components/Theme";
 import DarkLight from "./Components/DarkLight";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Seifeldeen Adel - Frontend Developer",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Theme>
           <DarkLight />
           {children}
+          <Analytics />
         </Theme>
       </body>
     </html>
