@@ -31,12 +31,12 @@ const data = [
     skills: [
       { id: 1, name: "html", image: "/images/skills/html-5.png" },
       { id: 2, name: "css", image: "/images/skills/css3.png" },
-      { id: 2, name: "javascript", image: "/images/skills/js.png" },
-      { id: 2, name: "typescipt", image: "/images/skills/typescript.png" },
-      { id: 2, name: "node JS", image: "/images/skills/node-js.png" },
-      { id: 2, name: "angular", image: "/images/skills/angularjs.png" },
-      { id: 2, name: "react JS", image: "/images/skills/react.png" },
-      { id: 4, name: "github", image: "/images/skills/git.png" },
+      { id: 3, name: "javascript", image: "/images/skills/js.png" },
+      { id: 4, name: "typescipt", image: "/images/skills/typescript.png" },
+      { id: 5, name: "node JS", image: "/images/skills/node-js.png" },
+      { id: 6, name: "angular", image: "/images/skills/angularjs.png" },
+      { id: 7, name: "react JS", image: "/images/skills/react.png" },
+      { id: 8, name: "github", image: "/images/skills/git.png" },
     ],
   },
   {

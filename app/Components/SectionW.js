@@ -1,6 +1,7 @@
 const SectionW = ({ children }) => {
   return (
-    <section className="border-t py-7 border-zinc-400 dark:border-zinc-800">
+    <section className="py-10 ">
+      <div className="border w-full bg-zinc-400 border-zinc-400 shadow-[ 0 50px 50px -12px rgb(0 0 0 / 0.25)] h-[45px] dark:border-zinc-800 mb-4"></div>
       {children}
     </section>
   );

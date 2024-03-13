@@ -1,71 +1,72 @@
 const data = [
   {
     id: 1,
-    title: "Build Amazone clone in Next.js, Node.js and TypeScript",
-    image: "/projects/amazon.png",
+    title: "Build Hangman Game React.js and Tailwind CSS",
+    image: "/images/projects/Hangman.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "The project is a complete Hangman Game with a scoring , hints and a multiple topics system",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 4, name: "typescript", image: "/skills/typescript.png" },
-      { id: 2, name: "next", image: "/skills/next-js.png" },
-      { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 3, name: "node", image: "/skills/node-js.png" },
-      { id: 3, name: "mongodb", image: "/skills/mongodb.png" },
+      { id: 1, name: "react", image: "/images/skills/react.png" },
+      { id: 2, name: "typescript", image: "/images/skills/typescript.png" },
+      { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+      { id: 4, name: "node", image: "/images/skills/node-js.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/seifadel25/Hangman-ReactJs",
+    demo: "https://hangman-react-js.vercel.app/",
   },
   {
     id: 2,
-    title: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
-    image: "/projects/youtube.png",
+    title:
+      "Centralize Palestine - The complete guide of contribution to the Palestinian cause",
+    image: "/images/projects/Palestine.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      " A Complete platform with all the needed information regarding the Palestinian cause with a few hand-made APIs to fetch news data from various news sources and store them in MongoDB",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 4, name: "typescript", image: "/skills/typescript.png" },
-      { id: 2, name: "next", image: "/skills/next-js.png" },
-      { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 3, name: "graphql", image: "/skills/graphql.png" },
+      { id: 1, name: "react", image: "/images/skills/react.png" },
+      { id: 2, name: "typescript", image: "/images/skills/typescript.png" },
+      { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+      { id: 4, name: "node", image: "/images/skills/node-js.png" },
+      { id: 5, name: "express JS", image: "/images/skills/express.png" },
+      { id: 6, name: "mongodb", image: "/images/skills/mongodb.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code:
+      "https://github.com/seifadel25/ProjectPalestine-Demo?tab=MIT-1-ov-file",
+    demo: "https://project-palestine-demo.vercel.app/",
   },
 
-  {
-    id: 3,
-    title:
-      "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
-    image: "/projects/web3.png",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
-    skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 4, name: "typescript", image: "/skills/typescript.png" },
-      { id: 2, name: "next", image: "/skills/next-js.png" },
-      { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 3, name: "solidity", image: "/skills/ethereum.png" },
-      { id: 3, name: "hardhat", image: "/skills/hardhat.png" },
-    ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
-  },
-  {
-    id: 4,
-    title: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
-    image: "/projects/upwork.png",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
-    skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 4, name: "typescript", image: "/skills/typescript.png" },
-      { id: 2, name: "next", image: "/skills/next-js.png" },
-      { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 3, name: "solidity", image: "/skills/graphql.png" },
-    ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
-  },
+  // {
+  //   id: 3,
+  //   title:
+  //     "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
+  //   image: "/projects/web3.png",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+  //   skills: [
+  //     { id: 1, name: "react", image: "/images/skills/react.png" },
+  //     { id: 4, name: "typescript", image: "/images/skills/typescript.png" },
+  //     { id: 2, name: "next", image: "/images/skills/next-js.png" },
+  //     { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+  //     { id: 3, name: "solidity", image: "/images/skills/ethereum.png" },
+  //     { id: 3, name: "hardhat", image: "/images/skills/hardhat.png" },
+  //   ],
+  //   source_code: "http://github.com/link",
+  //   demo: "http://www.demo.com/mydemo",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
+  //   image: "/projects/upwork.png",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+  //   skills: [
+  //     { id: 1, name: "react", image: "/images/skills/react.png" },
+  //     { id: 4, name: "typescript", image: "/images/skills/typescript.png" },
+  //     { id: 2, name: "next", image: "/images/skills/next-js.png" },
+  //     { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+  //     { id: 3, name: "solidity", image: "/images/skills/graphql.png" },
+  //   ],
+  //   source_code: "http://github.com/link",
+  //   demo: "http://www.demo.com/mydemo",
+  // },
 ];
 export default data;

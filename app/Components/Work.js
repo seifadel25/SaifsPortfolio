@@ -13,7 +13,9 @@ const Work = () => {
           <div className="relative w-[70px] h-[70px] rounded-3xl overflow-hidden   dark:border-zinc-700">
             <Image
               src={work.image}
+              alt={work.company}
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="w-full h-full object-cover"
             />
           </div>
@@ -34,7 +36,7 @@ const Work = () => {
               </span>
             </div>
             {work.skills && (
-              <div className="flex gap-2 gap-x-4 flex-wrap my-2">
+              <div className="flex gap-2 gap-x-4 flex-wrap my-2 md:justify-start justify-center items-center">
                 {work?.skills?.map((skill) => (
                   <SkillsComp key={skill.id} skill={skill} />
                 ))}
