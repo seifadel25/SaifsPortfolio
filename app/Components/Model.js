@@ -3,6 +3,7 @@ import SkillsComp from "./SkillsComp";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
+import BorderShadow from "./BorderShadow";
 
 const Model = ({ state, details, toggleModel }) => {
   return state ? (
@@ -31,7 +32,8 @@ const Model = ({ state, details, toggleModel }) => {
                 <SkillsComp key={skill.id} skill={skill} />
               ))}
             </div>
-            <div className="flex flex-wrap items-center gap-4 mt-4 border-t pt-3">
+            <BorderShadow />
+            <div className="flex flex-wrap items-center gap-4">
               <Link
                 href={details.source_code}
                 key={details.id}
@@ -42,7 +44,7 @@ const Model = ({ state, details, toggleModel }) => {
                   size={20}
                   className=" text-black dark:text-violet-600"
                 />
-                <span className=" hover:text-white dark:hover:text-black text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
+                <span className=" dark:hover:text-black text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
                   source code
                 </span>
               </Link>
@@ -56,7 +58,7 @@ const Model = ({ state, details, toggleModel }) => {
                   size={24}
                   className=" text-black dark:text-zinc-400"
                 />
-                <span className=" hover:text-white dark:hover:text-black text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
+                <span className="  dark:hover:text-black text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
                   demo{" "}
                 </span>
               </Link>
