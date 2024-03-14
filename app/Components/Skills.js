@@ -11,6 +11,8 @@ import { useEffect } from "react";
 const Skills = () => {
   useEffect(() => {
     AOS.init({
+      disableMutationObserver: true, // Optimize scroll listener
+
       // Global settings here
     });
   }, []);
