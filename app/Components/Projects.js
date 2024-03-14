@@ -19,18 +19,17 @@ const Projects = () => {
       <SectionW>
         <Heading>Projects</Heading>
         {data.map((project) => (
-          <div className="my-6">
-            <Button as={"div"} duration={5000}
+          <div className="my-6" key={project.id}>
+            <Button
+              as={"div"}
+              duration={5000}
               onClick={() => {
                 toggleModel();
                 setDetails(project);
               }}
               className=" cursor-pointer"
             >
-              <div
-                key={project.id}
-                className="flex flex-wrap gap-5 w-full pl-4 pt-5 pb-5 items-center"
-              >
+              <div className="flex flex-wrap gap-5 w-full pl-4 pt-5 pb-5 items-center">
                 <div className="relative w-full flex justify-center  md:w-[140px] h-[280px] md:h-32 rounded-lg overflow-hidden">
                   <img
                     src={project.image}
