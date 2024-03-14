@@ -2,6 +2,7 @@ import "./globals.css";
 import Theme from "./Components/Theme";
 import DarkLight from "./Components/DarkLight";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Seifeldeen Adel - Frontend Developer",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           <DarkLight />
           {children}
           <Analytics />
+          <SpeedInsights />
         </Theme>
       </body>
     </html>
