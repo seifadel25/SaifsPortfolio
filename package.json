@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
+    "aos": "^3.0.0-beta.6",
     "classnames": "^2.5.1",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.12",

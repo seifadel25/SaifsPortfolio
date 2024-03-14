@@ -5,7 +5,7 @@ const SkillsComp = ({ skill }) => {
   return (
     <div
       key={skill.id}
-      className=" cursor-pointer px-3 py-2 flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 rounded-lg hover:scale-110"
+      className=" cursor-pointer px-3 py-2 flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 rounded-lg hover:scale-110 shadow-md  shadow-violet-400 dark:shadow-violet-500/40 backdrop-blur  "
     >
       <div className="relative w-[25px] h-[25px]">
         <Image

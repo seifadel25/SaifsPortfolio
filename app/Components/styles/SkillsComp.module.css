@@ -1,0 +1,10 @@
+.skill-card {
+  opacity: 0; /* Initially hide the cards */
+  transform: translateY(20px); /* Initial position */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for smooth animation */
+}
+
+.skill-card.show {
+  opacity: 1; /* Show the cards */
+  transform: translateY(0); /* Move the cards to their final position */
+}
