@@ -33,6 +33,22 @@ const data = [
       "https://github.com/seifadel25/ProjectPalestine-Demo?tab=MIT-1-ov-file",
     demo: "https://project-palestine-demo.vercel.app/",
   },
+  {
+    id: 3,
+    title: "GameHub - The user-made games database",
+    image: "/images/projects/GameHub.png",
+    description:
+      " a Simple responsive React app that adds and stores Game events and their data on firebase and fetches them to display them in a list ",
+    skills: [
+      { id: 1, name: "react", image: "/images/skills/react.png" },
+      { id: 2, name: "typescript", image: "/images/skills/typescript.png" },
+      { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+      { id: 4, name: "node", image: "/images/skills/node-js.png" },
+      { id: 6, name: "firebase", image: "/images/skills/firebase.png" },
+    ],
+    source_code: "https://github.com/seifadel25/GameHub-Demo",
+    demo: "https://game-hub-demo-taupe.vercel.app/",
+  },
 
   // {
   //   id: 3,
