@@ -15,7 +15,7 @@ const SkillsComp = ({ skill }) => {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className={classNames(
             "w-full h-full object-cover rounded-full md:hover:scale-125 md:hover:rotate-12 transition-all duration-500",
-            { "bg-white rounded-full": skill.name === "next" }
+            { "bg-white rounded-full": skill.name === "next" },{ "bg-white rounded-full": skill.name === "AWS"}
           )}
         />
       </div>

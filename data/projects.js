@@ -49,6 +49,20 @@ const data = [
     source_code: "https://github.com/seifadel25/GameHub-Demo",
     demo: "https://game-hub-demo-taupe.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Busniness Center - Arabic learning management system",
+    image: "/images/projects/ARLMS.png",
+    description:
+      " a Simple responsive Home page for a learning management system for Arabic language ",
+    skills: [
+      { id: 1, name: "html", image: "/images/skills/html-5.png" },
+      { id: 2, name: "javascript", image: "/images/skills/javascript.png" },
+      { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+    ],
+    source_code: "https://github.com/seifadel25/LMS-AR",
+    demo: "https://lms-ar.vercel.app/",
+  },
 
   // {
   //   id: 3,

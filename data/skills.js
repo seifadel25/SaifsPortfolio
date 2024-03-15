@@ -23,5 +23,7 @@ const data = [
   { id: 34, name: "docker", image: "/images/skills/docker.png" },
   { id: 35, name: "GitHub", image: "/images/skills/git.png" },
   { id: 36, name: "firebase", image: "/images/skills/firebase.png" },
+  { id: 37, name: "C#", image: "/images/skills/csharp.svg" },
+  {id: 38, name: "dotnet", image: "/images/skills/dotnet.png"},
 ];
 export default data;
