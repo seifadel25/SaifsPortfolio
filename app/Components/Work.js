@@ -13,21 +13,21 @@ const Work = () => {
 
       {data.map((work) => (
         <div key={work.id} className="mt-6 gap-x-6">
-          <CardContainer className="w-full md:flex hidden inter-var justify-start">
+          <CardContainer className="w-full md:flex hidden inter-var  justify-start">
             <CardBody className="bg-gray-50 relative group/card  hover:shadow-2xl dark:hover:shadow-violet-500/[0.3] hover:shadow-violet-400/[0.9] dark:bg-zinc-950/[0.7] dark:border-white/[0.2] border-black/[0.1] lg:w-[800px] xl:w-[1000px] md:w-[600px] w-full  h-auto rounded-xl p-2 border  ">
-              <CardItem translateZ="50">
-                <div className="relative w-[70px] h-[70px] rounded-3xl overflow-hidden   dark:border-zinc-700">
+              <CardItem translateZ="50" className=" pl-2">
+                <div className=" pl-4 relative w-[70px] h-[70px] rounded-3xl  overflow-hidden   dark:border-zinc-700">
                   <Image
                     src={work.image}
                     alt={work.company}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="w-full h-full object-cover"
+                    className="  w-full h-full object-cover"
                   />
                 </div>
               </CardItem>
               <CardItem translateZ="60">
-                <div className="flex-1">
+                <div className="flex-1 pl-4">
                   <CardItem translateZ="60">
                     <h2 className="text-black dark:text-white capitalize font-bold text-base lg:text-lg ">
                       {work.role}
@@ -56,8 +56,8 @@ const Work = () => {
               </CardItem>
             </CardBody>
           </CardContainer>
-          <div className=" w-full flex md:hidden bg-gray-50 relative group/card  dark:bg-zinc-950/[0.7] dark:border-white/[0.2] border-black/[0.1]   h-auto rounded-xl p-2 border  ">
-            <div className="relative w-[70px] h-[70px] rounded-3xl overflow-hidden   dark:border-zinc-700">
+          <div className=" w-full flex md:hidden pl-4 bg-gray-50 pt-4 relative group/card gap-x-2  dark:bg-zinc-950/[0.7] dark:border-white/[0.2] border-black/[0.1]   h-auto rounded-xl p-2 border  ">
+            <div className="relative w-[50px] h-[50px] rounded-3xl overflow-hidden   dark:border-zinc-700">
               <Image
                 src={work.image}
                 alt={work.company}

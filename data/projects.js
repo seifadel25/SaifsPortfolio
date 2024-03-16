@@ -16,6 +16,20 @@ const data = [
   },
   {
     id: 2,
+    title: "Busniness Center - Arabic learning management system",
+    image: "/images/projects/ARLMS.png",
+    description:
+      " a Simple responsive Home page for a learning management system for Arabic language ",
+    skills: [
+      { id: 1, name: "html", image: "/images/skills/html-5.png" },
+      { id: 2, name: "javascript", image: "/images/skills/javascript.png" },
+      { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+    ],
+    source_code: "https://github.com/seifadel25/LMS-AR",
+    demo: "https://lms-ar.vercel.app/",
+  },
+  {
+    id: 3,
     title:
       "Centralize Palestine - The complete guide of contribution to the Palestinian cause",
     image: "/images/projects/Palestine.png",
@@ -34,7 +48,7 @@ const data = [
     demo: "https://project-palestine-demo.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "GameHub - The user-made games database",
     image: "/images/projects/GameHub.png",
     description:
@@ -48,20 +62,6 @@ const data = [
     ],
     source_code: "https://github.com/seifadel25/GameHub-Demo",
     demo: "https://game-hub-demo-taupe.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Busniness Center - Arabic learning management system",
-    image: "/images/projects/ARLMS.png",
-    description:
-      " a Simple responsive Home page for a learning management system for Arabic language ",
-    skills: [
-      { id: 1, name: "html", image: "/images/skills/html-5.png" },
-      { id: 2, name: "javascript", image: "/images/skills/javascript.png" },
-      { id: 3, name: "tailwindcss", image: "/images/skills/tailwind.png" },
-    ],
-    source_code: "https://github.com/seifadel25/LMS-AR",
-    demo: "https://lms-ar.vercel.app/",
   },
 
   // {
