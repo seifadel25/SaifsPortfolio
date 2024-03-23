@@ -25,5 +25,8 @@ const data = [
   { id: 36, name: "firebase", image: "/images/skills/firebase.png" },
   { id: 37, name: "C#", image: "/images/skills/csharp.svg" },
   {id: 38, name: "dotnet", image: "/images/skills/dotnet.png"},
+  {id:39,name:"wordpress",image:"/images/skills/wordpress.png"},
+  {id:40,name:"azure",image:"/images/skills/azure.png"},
+  {id:41,name:"woocommerce",image:"/images/skills/woo.webp"},
 ];
 export default data;

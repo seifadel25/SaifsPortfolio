@@ -1,5 +1,21 @@
 const data = [
   {
+    id: 6,
+    title: "Bunkin' Bakery - A Bakery website",
+    image: "/images/projects/Bunkin.png",
+    description:
+      " A full Wordpress Woo commerce website for a bakery with a custom theme and a custom plugin for the bakery's menu hosted on azure with a SMTP server for the contact form, Signups and newsletters",
+    skills: [
+      { id: 1, name: "wordpress", image: "/images/skills/wordpress.png" },
+      { id: 2, name: "woocommerce", image: "/images/skills/woo.webp" },
+      { id: 3, name: "azure", image: "/images/skills/azure.png" },
+      { id: 4, name: "css3", image: "/images/skills/css3.png" },
+      { id: 5, name: "git", image: "/images/skills/git.png" },
+    ],
+    source_code: "https://github.com/seifadel25/BunkinBakery",
+    demo: "https://bunkinb.azurewebsites.net/",
+  },
+  {
     id: 1,
     title: "Build Hangman Game React.js and Tailwind CSS",
     image: "/images/projects/Hangman.png",
@@ -45,7 +61,7 @@ const data = [
     ],
     source_code:
       "https://github.com/seifadel25/ProjectPalestine-Demo?tab=MIT-1-ov-file",
-    demo: "https://project-palestine-demo.vercel.app/",
+    demo: "https://centralizepalestine.vercel.app/",
   },
   {
     id: 4,
