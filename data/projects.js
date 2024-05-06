@@ -4,16 +4,18 @@ const data = [
     title: "Bunkin' Bakery - A Bakery website",
     image: "/images/projects/Bunkin.png",
     description:
-      " A full Wordpress Woo commerce website for a bakery with a custom theme and a custom plugin for the bakery's menu hosted on azure with a SMTP server for the contact form, Signups and newsletters",
+      " A full Platform for a bakery with a complete e-commerce system using Expo react native and Supabase for the backend , and WordPress and WooCommerce for the web platform ",
     skills: [
+      { id: 6, name: "React native", image: "/images/skills/react-native.png" },
+      { id: 7, name: "Supabase", image: "/images/skills/supabase.png" },
       { id: 1, name: "wordpress", image: "/images/skills/wordpress.png" },
       { id: 2, name: "woocommerce", image: "/images/skills/woo.webp" },
       { id: 3, name: "azure", image: "/images/skills/azure.png" },
       { id: 4, name: "css3", image: "/images/skills/css3.png" },
       { id: 5, name: "git", image: "/images/skills/git.png" },
     ],
-    source_code: "https://github.com/seifadel25/BunkinBakery",
-    demo: "https://bunkinb.azurewebsites.net/",
+    source_code: "https://github.com/seifadel25/BunkinBakery-ReactNative",
+    demo: "https://bunkinbakery.azurewebsites.net/",
   },
   {
     id: 1,
