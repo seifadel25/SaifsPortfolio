@@ -19,7 +19,7 @@ const Contacts = () => {
             href={contact.link}
             key={contact.id}
             target="_blank"
-            className="hover:scale-110 duration-300 transition-all shadow-lg shadow-violet-400 dark:shadow-zinc-800 backdrop-blur drop-shadow-lg flex items-center space-x-2 bg-white dark:bg-zinc-800 px-3 py-2 rounded-lg"
+            className="hover:scale-110 duration-300 transition-all shadow-lg shadow-violet-400 dark:shadow-zinc-800  drop-shadow-lg flex items-center space-x-2 bg-white dark:bg-zinc-800 px-3 py-2 rounded-lg"
           >
             {contact.name === "github" && (
               <FaGithub size={20} className="text-black dark:text-violet-600" />

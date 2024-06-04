@@ -7,7 +7,7 @@ import BorderShadow from "./BorderShadow";
 
 const Model = ({ state, details, toggleModel }) => {
   return state ? (
-    <div className=" flex items-center justify-center fixed inset-0 w-full h-screen bg-black/25 p-4 backdrop-blur z-[9999]">
+    <div className=" flex items-center justify-center fixed inset-0 w-full h-screen bg-black/25 p-4 backdrop-blur-[2px]  z-[9999]">
       <IoMdCloseCircleOutline
         onClick={toggleModel}
         className="cursor-pointer text-[35px] absolute top-6 right-6 text-black dark:text-white"

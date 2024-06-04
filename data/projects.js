@@ -1,5 +1,20 @@
 const data = [
   {
+    id: 7,
+    title: "Univent - An HVAC company website",
+    image: "/images/projects/Univent.png",
+    description:
+      " A full Platform for an HVAC company Showcasing their services, products, projects and clients using Next.js and Tailwind CSS for the frontend and using Next.js API routes",
+    skills: [
+      { id: 1, name: "next", image: "/images/skills/next-js.png" },
+      { id: 2, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+      { id: 3, name: "node", image: "/images/skills/node-js.png" },
+      { id: 6, name: "git", image: "/images/skills/git.png" },
+    ],
+    source_code: "https://github.com/seifadel25/Univent-NextJS",
+    demo: "https://univent-next-js.vercel.app/",
+  },
+  {
     id: 6,
     title: "Bunkin' Bakery - A Bakery website",
     image: "/images/projects/Bunkin.png",
