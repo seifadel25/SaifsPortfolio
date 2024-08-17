@@ -33,7 +33,7 @@ const Projects = () => {
                 <div className="relative w-full flex justify-center  md:w-[140px] h-[280px] md:h-32 rounded-lg overflow-hidden">
                   <img
                     src={project.image}
-                    className="w-4/6 md:w-full h-full"
+                    className="w-4/6 md:w-full h-full object-contain"
                     alt={project.title}
                   />
                 </div>

@@ -35,7 +35,7 @@ const data = [
     id: 10,
     name: "cv",
     label: "Download CV",
-    link: "/files/SaifEldeen_CV.pdf",
+    link: "/files/Fullstack_SeifEldeenAdel.pdf",
   },
 ];
 export default data;
