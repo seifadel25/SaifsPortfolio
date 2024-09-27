@@ -12,7 +12,7 @@ const data = [
       { id: 6, name: "git", image: "/images/skills/git.png" },
     ],
     source_code: "https://github.com/seifadel25/verdi-app",
-    demo: "https://verdi-dusky.vercel.app/",
+    demo: "https://verdi-test-paid.vercel.app/",
   },
   {
     id: 7,
