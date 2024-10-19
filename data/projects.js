@@ -1,5 +1,20 @@
 const data = [
   {
+    id: 9,
+    title: "TranslateMate - Seamless Translation, Powered by AI",
+    image: "/images/projects/TranslateMate.png",
+    description:
+      " A Translation app that uses the power of AI to translate text and voice in real-time using React Native, Expo and styled with NativeWind for the frontend and Microsoft Azure Ai Services API's for the backend",
+    skills: [
+      { id: 6, name: "React native", image: "/images/skills/react-native.png" },
+      { id: 2, name: "tailwindcss", image: "/images/skills/tailwind.png" },
+      { id: 3, name: "azure", image: "/images/skills/azure.png" },
+      { id: 6, name: "git", image: "/images/skills/git.png" },
+    ],
+    source_code: "https://github.com/seifadel25/TranslateMate",
+    demo: "https://translate-mate-umber.vercel.app/",
+  },
+  {
     id: 8,
     title: "Verdi - A General Contracting company website",
     image: "/images/projects/Verdi.png",

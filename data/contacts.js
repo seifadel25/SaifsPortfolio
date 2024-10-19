@@ -19,13 +19,6 @@ const data = [
   },
 
   {
-    id: 7,
-    name: "behance",
-    label: "Behance",
-    link: "http://behance.com/seifadel9",
-  },
-
-  {
     id: 9,
     name: "email",
     label: "Email",

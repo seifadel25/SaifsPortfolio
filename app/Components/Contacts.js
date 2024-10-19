@@ -36,12 +36,7 @@ const Contacts = () => {
                 className="text-violet-800 dark:text-indigo-500"
               />
             )}
-            {contact.name === "behance" && (
-              <FaBehanceSquare
-                size={20}
-                className="text-blue-800 dark:text-blue-600"
-              />
-            )}
+
             {contact.name === "email" && (
               <MdEmail size={20} className="text-red-800 dark:text-red-500" />
             )}
