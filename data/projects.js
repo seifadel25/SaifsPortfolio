@@ -1,5 +1,21 @@
 const data = [
   {
+    id: 10,
+    title: "Coach Omar Fouad - A Personal Trainer website",
+    image: "/images/projects/CoachOmar.png",
+    description:
+      " A full multilanguage e-commerce Platform for a personal trainer showcasing his services, products, projects and clients using wordpress and WooCommerce for the frontend and backend hosted on AWS Lightsail",
+    skills: [
+      { id: 1, name: "wordpress", image: "/images/skills/wordpress.png" },
+      { id: 2, name: "woocommerce", image: "/images/skills/woo.webp" },
+      { id: 3, name: "AWS", image: "/images/skills/azure.png" },
+      { id: 4, name: "css3", image: "/images/skills/css3.png" },
+      { id: 5, name: "git", image: "/images/skills/git.png" },
+    ],
+    source_code: "",
+    demo: "https://coachomarfouad.com/",
+  },
+  {
     id: 9,
     title: "TranslateMate - Seamless Translation, Powered by AI",
     image: "/images/projects/TranslateMate.png",
