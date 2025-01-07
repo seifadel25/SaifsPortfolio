@@ -161,7 +161,7 @@ const data = [
   {
     id: 0,
     title: "Object detection in c++ using OpenCV and yolov7",
-    image: "/images/projects/ObjectDetection.png",
+    image: "/images/skills/opencv.png",
     description:
       " A simple C++ program that uses OpenCV and yolov7 to detect objects in a video stream",
     skills: [
