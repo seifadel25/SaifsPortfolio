@@ -161,12 +161,12 @@ const data = [
   {
     id: 0,
     title: "Object detection in c++ using OpenCV and yolov7",
-    image: "/images/skills/opencv.png",
+    image: "/images/skills/openCV.png",
     description:
       " A simple C++ program that uses OpenCV and yolov7 to detect objects in a video stream",
     skills: [
       { id: 1, name: "c++", image: "/images/skills/cplusplus.png" },
-      { id: 2, name: "opencv", image: "/images/skills/opencv.png" },
+      { id: 2, name: "opencv", image: "/images/skills/openCV.png" },
     ],
     source_code: "https://github.com/seifadel25/ObjectDetectionCppOpenCV-Yolo",
     demo: "",
